@@ -1,0 +1,167 @@
+/* Global */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+	font-family: "Lato", sans-serif;
+}
+
+/* Header */
+header {
+	width: 100%;
+	height: 65vh;
+	background-color: yellow;
+}
+
+/* About */
+#about-me {
+	width: 100%;
+	height: 90vh;
+	background-color: red;
+}
+
+/* Portfolio */
+#my-portfolio {
+	width: 100%;
+	height: 80vh;
+	background-color: green;
+}
+
+/* Blog */
+#my-blog {
+	width: 100%;
+	height: 80vh;
+	background-color: blue;
+}
+
+/* Contact */
+#contact-me {
+	width: 100%;
+	height: 60vh;
+}
+
+/* Navigation Bar */
+nav {
+	background-color: #f39c12;
+	height: 60px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 22px;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	background-color: #e67e22;
+}
+
+/*
+	* The following "stick" class gets added into the <nav> element
+	  when the user scrolls past the navigation bar, to make the
+	  navigation bar stick to the top. All with the help of JS.
+	* Want to edit, or take a look at the JS code?
+	  "_js/stickynav.js"
+*/
+.stick {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+/* Header H1 */
+header h1 {
+	font-size: 80px;
+	text-align: center;
+	padding-top: 250px;
+	text-transform: uppercase;
+}
+
+/* Header H2 */
+header h2 {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+}
+
+/* Contact H2 */
+#contact-me h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+/* The Contact Form */
+form {
+    padding-top: 60px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+#contact textarea {
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+#contact textarea {
+    font-size: 16px;
+}
+
+#contact input:hover, #contact textarea:hover {
+    border: 1px solid #888;
+}
+
+#contact input:focus, #contact textarea:focus {
+    border: 1px solid #777;
+}
+
+#contact textarea {
+    resize: none;
+    max-height: 180px;
+    min-height: 180px;
+}
+
+#contact .submit-button {
+    text-align: center;
+}
+
+#contact .submit-button button[type="submit"] {
+    color: #fff;
+    background: #e74c3c;
+    border: none;
+    width: 70%;
+    padding: 20px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: .5s all ease;
+    cursor: pointer;
+}
+
+#contact .submit-button button[type="submit"]:hover {
+    background: #c0392b;
+}
+
+#contact .submit-button button[type="submit"]:focus {
+    position: relative;
+    top: 2px;
+}
